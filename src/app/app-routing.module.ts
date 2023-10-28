@@ -9,6 +9,8 @@ import { ListeEquipesComponent } from './liste-equipes/liste-equipes.component';
 import { LoginComponent } from './login/login.component';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
 import { joueurGuard } from './joueur.guard';
+import { HomeComponent } from './home/home.component';
+
 
 const routes: Routes = [
 {path: "joueurs", component : JoueursComponent},
@@ -21,6 +23,8 @@ const routes: Routes = [
 {path: 'login', component: LoginComponent},
 {path: 'app-forbidden', component: ForbiddenComponent},
 {path : "add-joueur", component : AddJoueurComponent, canActivate:[joueurGuard]},
+{path :"home" , component : HomeComponent},
+
 
 
 
