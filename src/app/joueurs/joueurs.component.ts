@@ -16,8 +16,7 @@ constructor(private joueurService: JoueurService,public authService: AuthService
 /*this.joueurs = joueurService.listeJoueurs();*/
 }
 ngOnInit(): void {
-  
-   
+
     this.chargerJoueurs();
     
     
